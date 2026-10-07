@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raghubir Kumar | Aspiring Full Stack Developer</title>
+<meta name="description" content="Portfolio of Raghubir Kumar, a second-year B.Tech CSIT student and aspiring Full Stack Developer.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237c3aed'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3ERK%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<!-- Animated background (decorative) -->
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="orbs" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i></div>
+
+<a class="skip" href="#home">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#home" aria-label="RK home">RK<span>.</span></a>
+    <nav aria-label="Main">
+      <ul id="menu">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-btns">
+      <button id="theme" class="icon-btn" aria-label="Switch to light mode" type="button">☀</button>
+      <button id="burger" class="icon-btn burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu" type="button">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero wrap">
+  <div class="hero-text">
+    <p class="chip"><span class="pulse"></span>CSIT Student • Aspiring Full Stack Developer</p>
+    <h1>Hi, I'm <span class="grad">Raghubir Kumar</span></h1>
+    <p class="type">I build <span id="typed"></span><span class="caret">|</span></p>
+    <p class="lead">A second-year B.Tech CSIT student focused on programming, web development, problem solving and building practical applications.</p>
+    <div class="row">
+      <a class="btn primary" href="#projects">View Projects</a>
+      <a class="btn ghost" href="#contact">Contact Me</a>
+    </div>
+    <div class="row social">
+      <a class="btn ghost sm" href="https://github.com/raghuveeryadav277-sudo" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a class="btn ghost sm" data-linkedin href="https://www.linkedin.com/in/raghubir-yadav-7337b43a7" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    </div>
+  </div>
+  <aside class="profile" aria-label="Profile card">
+    <div class="photo-wrap">
+      <div class="ring" aria-hidden="true"></div>
+      <img class="photo" src="assets/profile.jpg" alt="Portrait of Raghubir Kumar" width="300" height="300">
+      <span class="float f1" aria-hidden="true">Java</span>
+      <span class="float f2" aria-hidden="true">&lt;/&gt;</span>
+    </div>
+    <h2>Raghubir Kumar</h2>
+    <p class="muted">Future Full Stack Developer</p>
+    <p class="open">● Open to learning &amp; opportunities</p>
+    <ul class="stats">
+      <li><b>2nd Year</b><span>Level</span></li><li><b>CSIT</b><span>Branch</span></li>
+      <li><b>Java</b><span>Favorite</span></li><li><b>Learning</b><span>Mindset</span></li>
+    </ul>
+  </aside>
+</section>
+
+<section id="about" class="wrap sec reveal">
+  <p class="eyebrow">01 / About</p>
+  <h2>Learning by building.</h2>
+  <p class="lead">I'm Raghubir Kumar, a B.Tech CSIT student at GL Bajaj Institute of Technology &amp; Management. I enjoy programming, web development and turning ideas into practical projects.</p>
+  <p class="muted sub">I am currently improving:</p>
+  <ul class="tags">
+    <li>Java</li><li>C++</li><li>Python</li><li>JavaScript</li><li>DSA</li><li>Spring Boot</li><li>Web Development</li><li>Git/GitHub</li>
+  </ul>
+  <p class="lead">My long-term goal is to become a strong Full Stack Developer who can design, develop and deploy reliable applications.</p>
+  <div class="grid3">
+    <article class="card hov"><span class="num">01</span><h3>B.Tech CSIT</h3><p class="muted">GL Bajaj Institute of Technology &amp; Management</p></article>
+    <article class="card hov"><span class="num">02</span><h3>Development</h3><p class="muted">Frontend + Backend Learning</p></article>
+    <article class="card hov"><span class="num">03</span><h3>Career Goal</h3><p class="muted">Full Stack Developer</p></article>
+  </div>
+</section>
+
+<section id="skills" class="wrap sec reveal">
+  <p class="eyebrow">02 / Toolkit</p>
+  <h2>Skills I'm building with.</h2>
+  <div class="skills">
+    <article class="card hov skill"><span class="num">01</span><h3>C</h3><p>Programming</p></article>
+    <article class="card hov skill"><span class="num">02</span><h3>C++</h3><p>OOP • DSA</p></article>
+    <article class="card hov skill"><span class="num">03</span><h3>Java</h3><p>OOP • Programming</p></article>
+    <article class="card hov skill"><span class="num">04</span><h3>Python</h3><p>Programming</p></article>
+    <article class="card hov skill"><span class="num">05</span><h3>HTML</h3><p>Web Structure</p></article>
+    <article class="card hov skill"><span class="num">06</span><h3>CSS</h3><p>Web Styling</p></article>
+    <article class="card hov skill"><span class="num">07</span><h3>JavaScript</h3><p>Web</p></article>
+    <article class="card hov skill"><span class="num">08</span><h3>Spring Boot</h3><p>Backend</p></article>
+    <article class="card hov skill"><span class="num">09</span><h3>Git</h3><p>Version Control</p></article>
+    <article class="card hov skill"><span class="num">10</span><h3>GitHub</h3><p>Collaboration</p></article>
+    <article class="card hov skill"><span class="num">11</span><h3>DSA</h3><p>Problem Solving</p></article>
+    <article class="card hov skill"><span class="num">12</span><h3>Responsive UI</h3><p>Frontend</p></article>
+  </div>
+</section>
+
+<section id="projects" class="wrap sec reveal">
+  <p class="eyebrow">03 / Selected Work</p>
+  <h2>Projects with purpose.</h2>
+  <div class="projects">
+    <article class="card hov proj">
+      <span class="num">01</span>
+      <p class="tech">HTML • CSS • JavaScript</p>
+      <h3>Tic-Tac-Toe Game</h3>
+      <p class="muted">A responsive browser-based Tic-Tac-Toe game with interactive gameplay and a clean user interface.</p>
+      <div class="row">
+        <a class="btn primary sm" href="https://tic-tac-toe-game-peach-iota.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+        <a class="btn ghost sm" href="https://github.com/raghuveeryadav277-sudo/tic-tac-toe-game" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+    </article>
+    <article class="card hov proj">
+      <span class="num">02</span>
+      <p class="tech">Frontend • Web Application</p>
+      <h3>Lost &amp; Found Application</h3>
+      <p class="muted">A practical web application interface for posting, filtering and viewing lost or found items with a responsive and consistent user experience.</p>
+      <div class="row"><button class="btn ghost sm" type="button" data-details aria-expanded="false">Project Details</button></div>
+      <p class="more" hidden>Live demo and GitHub links will be added here once available.</p>
+    </article>
+    <article class="card hov proj">
+      <span class="num">03</span>
+      <p class="tech">JavaScript • Academic Tool</p>
+      <h3>AKTU Academic Calculator</h3>
+      <p class="muted">A student-focused academic calculator designed to organize semester performance and perform academic calculations.</p>
+      <div class="row"><button class="btn ghost sm" type="button" data-details aria-expanded="false">Project Details</button></div>
+      <p class="more" hidden>Live demo and GitHub links will be added here once available.</p>
+    </article>
+    <article class="card hov proj">
+      <span class="num">04</span>
+      <p class="tech">HTML • CSS • JavaScript</p>
+      <h3>Food Bridge</h3>
+      <p class="muted">A web project concept designed around connecting surplus food with people and organizations that can use it.</p>
+      <div class="row"><button class="btn ghost sm" type="button" data-details aria-expanded="false">Project Details</button></div>
+      <p class="more" hidden>Live demo and GitHub links will be added here once available.</p>
+    </article>
+  </div>
+</section>
+
+<section id="education" class="wrap sec reveal">
+  <p class="eyebrow">04 / Education</p>
+  <h2>My Journey</h2>
+  <div class="timeline">
+    <article class="card hov">
+      <span class="dot" aria-hidden="true"></span>
+      <p class="tech">Second Year / Sophomore</p>
+      <h3>B.Tech — Computer Science &amp; Information Technology</h3>
+      <p>GL Bajaj Institute of Technology &amp; Management</p>
+      <p class="muted">Building skills in programming, DSA, web development and full-stack technologies.</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="wrap sec reveal">
+  <p class="eyebrow">05 / Contact</p>
+  <h2>Let's build something useful.</h2>
+  <p class="lead">Have a project idea, collaboration or learning opportunity? Send a message.</p>
+  <div class="contact">
+    <div class="cards">
+      <a class="card hov" data-email-link href="mailto:raghuveeryadav277@gmail.com"><h3>Email</h3><p class="muted" data-email-text>raghuveeryadav277@gmail.com</p></a>
+      <a class="card hov" href="https://github.com/raghuveeryadav277-sudo" target="_blank" rel="noopener noreferrer"><h3>GitHub</h3><p class="muted">github.com/raghuveeryadav277-sudo</p></a>
+      <a class="card hov" data-linkedin href="https://www.linkedin.com/in/raghubir-yadav-7337b43a7" target="_blank" rel="noopener noreferrer"><h3>LinkedIn</h3><p class="muted">linkedin.com/in/raghubir-yadav-7337b43a7</p></a>
+    </div>
+    <form id="form" class="card" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+      <label for="msg">Message</label>
+      <textarea id="msg" name="msg" rows="5" placeholder="Write your message" required></textarea>
+      <p id="err" class="err" role="alert"></p>
+      <button class="btn primary" type="submit">Send Message</button>
+      <p class="muted small">This opens your default email app. No data is stored on any server.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p>© <span id="year">2026</span> Raghubir Kumar. Built with HTML, CSS &amp; JavaScript. <a href="#home">Back to top ↑</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
