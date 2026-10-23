@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myportfoliowebsite-zeta-beige.vercel.app/sitemap.xml
